@@ -18,10 +18,19 @@
 	01 Color ----------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------- */
 html{
-  background-color: hsla(83, 50%, 20%, 0.7);
+  background-color: hsla(20, 50%, 50%, 2.7);
+  padding: 7%;
 }
-
-
+body{
+  background-color: hsla(150, 25%, 50%,  5.9);
+}
+header h1{
+  background-color: hsla(30, 25%, 50%,  5.9) ;
+}
+div.preamble, div.requirements, div.benefits{
+  color:  hsla(200, 100%, 70%,  9.9);
+  background-color:  hsla(230, 25%, 50%,  5.9);
+}
 
 
 /** 02 Typography -- Font  **/
