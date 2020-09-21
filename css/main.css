@@ -35,7 +35,11 @@ div.preamble, div.requirements, div.benefits{
 
 /** 02 Typography -- Font  **/
 
+body{
 
+  font-family: Oswald, sans-serif;
+
+}
 
 /** 03 Position, Size, layout **/
 
