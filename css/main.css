@@ -68,7 +68,7 @@ section.intro div.preamble{
 }
 div.page-wrapper{
   padding: 5%;
-  
+  z-index: 2;
 }
 div.extra{
   position: fixed;
@@ -80,7 +80,25 @@ div.extra{
   z-index: 1;
 
 }
-
+div.explanation{
+  float: left;
+  width: 40%;
+  padding: 5%;
+}
+div.participation{
+  margin-left: 50%;
+  width:40%;
+  padding:5%;
+}
+div.benefits{
+  float: left;
+  width: 30%;
+  padding: 5%;
+}
+div.requirement{
+  margin-left: 40%;
+  width: ;
+}
 
 /** 04  Other decoration -- background Links **/ 
 
