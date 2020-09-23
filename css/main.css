@@ -57,6 +57,7 @@ aside.sidebar{
   top: 3%;
   right: 0;
   width: 27%;
+  padding: 2%;
 }
 section.intro{
   width: 60.7%;
@@ -95,9 +96,13 @@ div.benefits{
   width: 30%;
   padding: 5%;
 }
-div.requirement{
+div.requirements{
   margin-left: 40%;
-  width: ;
+  width:50% ;
+  padding: 5%;
+}
+h2{
+  border: 3px dashed;
 }
 
 /** 04  Other decoration -- background Links **/ 
