@@ -104,7 +104,18 @@ div.requirements{
 h2{
   border: 3px dashed;
 }
+a{
 
+}
+footer{
+  clear: both;
+  padding: 1em  5%;
+  width: 50%;
+  margin: 10em auto;
+}
+div.summary{
+  display: none;
+}
 /** 04  Other decoration -- background Links **/ 
 
 
