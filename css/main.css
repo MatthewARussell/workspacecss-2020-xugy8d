@@ -42,6 +42,44 @@ body{
 }
 
 /** 03 Position, Size, layout **/
+div,
+article,
+section,
+header,
+footer,
+nav,
+figure,
+li{
+  position: relative ;
+}
+aside.sidebar{
+  position: absolute;
+  top: 3%;
+  right: 0;
+  width: 27%;
+}
+section.intro{
+  width: 60.7%;
+  padding:5%;
+}
+section.intro div.preamble{
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+}
+div.page-wrapper{
+  padding: 5%;
+  
+}
+div.extra{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+
+  height: 600px;
+  z-index: 1;
+
+}
 
 
 /** 04  Other decoration -- background Links **/ 
