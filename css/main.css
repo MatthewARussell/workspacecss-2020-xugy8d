@@ -28,7 +28,7 @@ header h1{
   background-color: hsla(30, 25%, 50%,  5.9) ;
 }
 div.preamble, div.requirements, div.benefits{
-  color:  hsla(200, 100%, 70%,  9.9);
+  color:  hsla(0, 100%, 70%,  9.9);
   background-color:  hsla(230, 25%, 50%,  5.9);
 }
 
@@ -92,6 +92,7 @@ div.participation{
   padding:5%;
 }
 div.benefits{
+  box-shadow: -25px -25px 50px black;
   float: left;
   width: 30%;
   padding: 5%;
@@ -104,9 +105,7 @@ div.requirements{
 h2{
   border: 3px dashed;
 }
-a{
 
-}
 footer{
   clear: both;
   padding: 1em  5%;
@@ -140,19 +139,30 @@ p{
 }
 p:active{
   border: 1px red;
+  transform: scale(0.2);
+  transition: ease-in-out 3s;
+}
 
-}
-p:nth-child(3n+1){
-  
-}
 h3:hover ~p{
   visibility: hidden;
+  transition: ease-in-out 3s, all 3s;
 }
 a:hover{
   border: 5px solid turquoise;
 }
 /** 04  Other decoration -- background Links **/ 
-
+/* TEXT */
+h3{
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: -5px -5px  black;
+  float: left;
+  text-shadow: 3px 3px darkturquoise;
+  transition: ease-in-out 3s, all 3s;
+}
+h3:hover{
+  transform:translate(10px,10px);
+}
 
 
 /**	05	Media  **/
